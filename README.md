@@ -4,6 +4,8 @@
 
 ---
 
+<img src="https://github.com/nikhilyadav45/Data-Analysis-Assignment/blob/main/Dashboard.png"></img>
+
 ## Overview
 
 This project analyzes **211,224 trades** from 32 Hyperliquid accounts alongside the daily Bitcoin Fear & Greed Index to answer a core question: *does market sentiment predict how profitably traders behave?*
@@ -110,16 +112,6 @@ The answer is yes — and the patterns are both consistent and actionable.
 
 ---
 
-## Strategy Recommendations
-
-1. **Go long in Fear, short in Greed** — Contrarian positioning aligned with sentiment outperforms in both directions.
-2. **Size up during Fear** — The largest average position sizes in Fear periods correlate with the highest win rates. High conviction in pessimistic conditions is warranted.
-3. **Be precise in Extreme Greed** — Fewer, targeted trades with short bias outperform high-frequency approaches during euphoric markets.
-4. **Use sentiment as a position-sizing signal** — Inverse relationship between avg trade size and sentiment score is a consistent, exploitable pattern.
-5. **Monitor regime transitions as exit signals** — Extreme Greed → Neutral transitions have preceded the two loss months in this dataset.
-
----
-
 ## Files
 
 ```
@@ -129,14 +121,3 @@ The answer is yes — and the patterns are both consistent and actionable.
 └── bitcoin_sentiment_trader_analysis.md  ← full written analysis & findings
 ```
 
----
-
-## Tools Used
-
-- Python 3 / pandas / numpy — data processing and analysis
-- Chart.js — interactive dashboard visualizations
-- Datasets merged on date key (IST timestamp normalized to YYYY-MM-DD)
-
----
-
-*Analysis covers 211,224 Hyperliquid trades from Jan 2024 – May 2025 merged with the Bitcoin Fear & Greed Index.*
